@@ -1,7 +1,7 @@
 .view-width {
 
     width: 390px;
-    height: 1000px;
+    height: 1100px;
     /* border: 2px solid red; */
 }
 
@@ -78,7 +78,7 @@
 }
 
 #info-pic{
-    margin-top:90px;
+    margin-top:70px;
     /* border:2px solid lime; */
     width:389px;
 }
