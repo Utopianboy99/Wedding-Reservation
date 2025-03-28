@@ -107,7 +107,7 @@ const Invitation = () => {
 
       </div>
       <br />
-      <button><a href="" className="btn"  >CLICK TO RESERVE <br /> A SEAT</a></button>
+      <button><a href="https://wa.me/+27729628115?text=Hi😃%2C%20I%20would%20like%20to%20reserve%20a%20seat%20at%20your%20wedding%20anniversary%2C%20my%20name%20is%20" className="btn"  >CLICK TO RESERVE <br /> A SEAT</a></button>
       <br />
       <p className="frech" >"CLIQUEz CI-DESSUS POUR RESERVER VOTRE PLACE"</p>
     </div>
