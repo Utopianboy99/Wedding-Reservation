@@ -1,23 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./invitation.css"; // Ensure this file exists
 
 const images = [
-  "/wed-day.jpg",
-  "/1_year.jpg",
-  "/2_years.jpg",
-  "/3_years.jpg",
-  "/4_years.jpg",
-  "/5_years.jpg",
-  "/6_years.jpg",
-  "/7_years.jpg",
-  "/8_years.jpg",
-  "/9_years.jpg",
-  "/10_years.jpg"
+  "/pic1.png",
+  "/pic2.png",
+  "/pic3.png",
+  "/pic4.png",
+  "/pic5.png",
+  "/pic6.png",
+  "/pic7.png",
+  "/pic8.png",
+  "/pic9.png",
+  "/pic10.png"
 ];
 
 const Invitation = () => {
