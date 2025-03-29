@@ -40,16 +40,32 @@
 
 
 .title{
-    height:160px;
+    height:400px;
+    border:2px solid red;
+    background-image: url("/Group 94.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:390px;
+    top:200px;
+    z-index: 1;
+}
+
+.coupleName{
+    width:10%;
+    height:10%;
+    border:2px solid red;
 }
 
 #couple{
-    width:350px;
+
+    border:2px solid white;
+    /* width:350px;
     height: 180px;
     position: absolute;
     top:32%;
     left:0%;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .who{
@@ -69,12 +85,13 @@
 
 #wed-inn-svg{
     /* margin-top:40%; */
-    position: absolute;
-    width:390px;
+    /* position: absolute; */
+    width:100%;
     height:100px;
-    top:64%;
-    left:0%;
-    margin-bottom: -20px;;
+    border:2px solid red;
+    /* top:64%; */
+    /* left:0%; */
+    /* margin-bottom: -20px;; */
 }
 
 #info-pic{
@@ -153,4 +170,111 @@ button{
     text-align: center;
     font-size: 11px;
 }
+
+@media (max-width: 400px) {
+    .view-width {
+        width: 100%;
+        height: 215vh;
+
+    }
+
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .slide-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .title{
+        height:400px;
+        border:2px solid red;
+        background-image: url("/Group 94.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        width:374px;
+        top:400px;
+        z-index: 1;
+    }
+
+    #couple {
+        width: 90%;
+        height: auto;
+        top: 30%;
+        left: 5%;
+    }
+
+    .who {
+        font-size: 24px;
+        margin-top: 80px;
+        top: 35%;
+    }
+
+    #and {
+        font-size: 70px;
+    }
+
+    #wed-inn-svg {
+        width: 50px;
+        height: auto;
+        top: 60%;
+        /* border:2px solid red */
+    }
+
+    #info-pic {
+        width: 99.9%;
+        margin: 100px -1px 10px;
+
+    }
+
+    .text-info {
+        flex-direction: column;
+        text-align: center;
+        margin:5px;
+    }
+
+    .more-info {
+        font-size: 12px;
+    }
+
+    .text1{
+        text-align: center;
+    }
+
+    .text2{
+        margin-top:20px;
+        text-align: center;
+    }
+
+    .head-text{
+        font-size: 16px;
+    }
+
+    .address {
+        font-size: 12px;
+        /* color:red */
+    }
+
+    .countdown {
+        font-size: 22px;
+    }
+
+    button {
+        width: 60%;
+        margin: 10px auto;
+        height: 40px;
+    }
+
+    .frech {
+        font-size: 10px;
+    }
+}
+
 

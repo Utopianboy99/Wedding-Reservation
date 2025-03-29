@@ -64,9 +64,10 @@ const Invitation = () => {
       </Swiper>
 
       <div className="title">
-        <img src="/10_years 1.svg" alt="couple" id="couple" />
+        {/* <img src="/10_years 1.svg" alt="couple" id="couple" />
         <h1 className="who">GAYLORD <span id="and">&</span> VANESSA</h1>
-        <img src="/wedding-anniversary 1.svg" alt="wedding-anniversary" id="wed-inn-svg" />
+        <img src="/wedding-anniversary 1.svg" alt="wedding-anniversary" id="wed-inn-svg" /> */}
+        {/* <img src="/Group 94.svg" alt=" coulpe-name" className="couple" /> */}
       </div>
 
       <div className="info"></div>
@@ -76,16 +77,17 @@ const Invitation = () => {
       </div>
 
       <div className="text-info">
-        <div className="text1">
-          <h5>THANKS GIVING SERVICE </h5>
+         <div className="text1">
+          <h5 className="head-text">THANKS GIVING SERVICE </h5>
           <p className="more-info">12:30 - 14:00</p>
           <p className="more-info">THEME : ALL WHITE</p>
         </div>
+        
         <div className="text2">
-          <h5>DINNER</h5>
+          <h5 className="head-text">DINNER</h5>
           <p className="more-info">17:00 - 21:00</p>
           <p className="more-info">THEME : BLACK & GOLD</p>
-        </div>
+        </div> 
       </div>
         <br />
       <div className="address">
