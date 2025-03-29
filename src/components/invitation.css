@@ -174,7 +174,7 @@ button{
 @media (max-width: 400px) {
     .view-width {
         width: 100%;
-        height: 215vh;
+        height: 250vh;
 
     }
 
@@ -230,7 +230,7 @@ button{
 
     #info-pic {
         width: 99.9%;
-        margin: 400px -1px 10px;
+        margin: 900px -1px 10px;
 
     }
 
