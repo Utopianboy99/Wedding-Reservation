@@ -63,10 +63,7 @@ const Invitation = () => {
       </Swiper>
 
       <div className="title">
-        {/* <img src="/10_years 1.svg" alt="couple" id="couple" />
-        <h1 className="who">GAYLORD <span id="and">&</span> VANESSA</h1>
-        <img src="/wedding-anniversary 1.svg" alt="wedding-anniversary" id="wed-inn-svg" /> */}
-        {/* <img src="/Group 94.svg" alt=" coulpe-name" className="couple" /> */}
+  
       </div>
 
       <div className="info"></div>
