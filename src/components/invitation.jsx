@@ -66,7 +66,7 @@ const Invitation = () => {
   
       </div>
 
-      <div className="info"></div>
+      {/* <div className="info"></div>
 
       <div className="time-reg">
         <img src="/info-pic.jpg" alt="info-pic" id="info-pic" />
@@ -90,7 +90,7 @@ const Invitation = () => {
         <p>ADDRESS: 8 ALBERT STR TOWNSVIEW </p>
         <br id="br" />
         <p>(ROSETTENVILLE BAPTIST CHURCH)</p>
-      </div>
+      </div> */}
 
       <div className="count-down-block">
         <br />
