@@ -210,13 +210,13 @@ button{
 
     .title{
         height:800px;
-        border:2px solid red;
+        /* border:2px solid red; */
         background-image: url("/Group-95.svg");
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        width:80vw;
-        margin:0px 10%;
+        width:90vw;
+        margin:0px 5%;
         top:190px;
         z-index: 1;
         /* left:0%; */
@@ -274,8 +274,8 @@ button{
 
     .count-down-block{
         position: absolute;
-        top:1050px;
-        left:15%
+        top:880px;
+        left:20%
     }
 
     .countdown {
@@ -288,15 +288,15 @@ button{
         margin: 10px auto;
         height: 40px;
         position: absolute;
-        top:1170px;
+        top:1000px;
         left:30%;
     }
 
     .frech {
         font-size: 10px;
         position: absolute;
-        top:1350px;
-        left:15%
+        top:1100px;
+        left:18%
 
     }
 }
