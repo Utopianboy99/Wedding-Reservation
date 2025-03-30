@@ -215,8 +215,8 @@ button{
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        width:90vw;
-        margin:0px 5%;
+        width:70vw;
+        margin:0px 15%;
         top:190px;
         z-index: 1;
         /* left:0%; */
