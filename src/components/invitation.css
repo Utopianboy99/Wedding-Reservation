@@ -308,7 +308,7 @@ button{
 @media (max-width: 400px) {
     .view-width {
         width: 100%;
-        height: 120vh;
+        height: 130vh;
 
     }
 
@@ -327,15 +327,16 @@ button{
     }
 
     .title{
-        height:700px;
-        /* border:2px solid red; */
+        height:370px;
+        border:2px solid red;
         background-image: url("/Group 97.svg");
         background-size: cover;
         background-repeat: no-repeat;
-        position: absolute;
-        width:374px;
-        top:400px;
-        z-index: 1;
+        /* position: absolute; */
+        width:350px;
+        margin:0px;
+        /* top:400px; */
+        /* z-index: 1; */
     }
 
     #couple {
@@ -396,11 +397,6 @@ button{
         /* color:red */
     }
 
-    .count-down-block{
-        position: absolute;
-        top:1100px;
-        left:16%;
-    }
 
     .countdown {
         font-size: 22px;
@@ -408,11 +404,11 @@ button{
 
     button {
         width: 60%;
-        margin: 10px auto;
+        margin: 10px 20%;
         height: 40px;
-        position: absolute;
-        top:1210px;
-        left:20%;
+        /* position: absolute; */
+        /* top:1210px; */
+        /* left:20%; */
     }
 
     .frech {
