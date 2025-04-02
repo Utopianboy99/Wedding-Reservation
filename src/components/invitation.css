@@ -3,7 +3,7 @@
 .view-width {
 
     width: 390px;
-    height: 180vh;
+    height: 160vh;
     /* border: 2px solid red; */
 }
 
@@ -191,7 +191,7 @@ button{
 @media (max-width: 500px) {
     .view-width {
         width: 100%;
-        height: 220vh;
+        height: 170vh;
 
     }
 
@@ -308,7 +308,7 @@ button{
 @media (max-width: 400px) {
     .view-width {
         width: 100%;
-        height: 230vh;
+        height: 170vh;
 
     }
 
