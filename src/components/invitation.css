@@ -328,7 +328,7 @@ button{
 
     .title{
         height:370px;
-        border:2px solid red;
+        /* border:2px solid red; */
         background-image: url("/Group 97.svg");
         background-size: cover;
         background-repeat: no-repeat;
