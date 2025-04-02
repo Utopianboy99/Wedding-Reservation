@@ -3,7 +3,7 @@
 .view-width {
 
     width: 390px;
-    height: 160vh;
+    height: 200vh;
     /* border: 2px solid red; */
 }
 
@@ -60,7 +60,7 @@
 
 #couple{
 
-    border:2px solid white;
+    border:2px solid red;
     /* width:350px;
     height: 180px;
     position: absolute;
@@ -95,7 +95,7 @@
 }
 
 #info-pic{
-    margin-top:300px;
+    /* margin-top:300px; */
     /* border:2px solid lime; */
     width:389px;
 }
@@ -191,7 +191,7 @@ button{
 @media (max-width: 500px) {
     .view-width {
         width: 100%;
-        height: 150vh;
+        height: 200vh;
 
     }
 
@@ -242,7 +242,7 @@ button{
 
     #info-pic {
         width: 99.9%;
-        margin: 900px -1px 10px;
+        /* margin: 900px -1px 10px; */
     }
 
     .text-info {
@@ -308,7 +308,7 @@ button{
 @media (max-width: 400px) {
     .view-width {
         width: 100%;
-        height: 140vh;
+        height: 190vh;
 
     }
 
@@ -365,14 +365,14 @@ button{
 
     #info-pic {
         width: 99.9%;
-        margin: 550px -1px 10px;
+        /* margin: 550px -1px 10px; */
 
     }
 
     .text-info {
         flex-direction: column;
         text-align: center;
-        margin:5px;
+        margin:20px 5px;
     }
 
     .more-info {
