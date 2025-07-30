@@ -110,16 +110,15 @@
     top: 74%;
     margin-bottom: 10%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .title h1 {
-    width: 100%;
+    /* width: 80%; */
     font-size: 290%;
     /* border:2px solid red; */
     color: #D4A5A5;
-    z-index: 1;
 }
 
 .span {
@@ -325,9 +324,12 @@ button {
     }
 
     .title h1 {
+        text-align: center;
         margin: 0px;
         text-align: center;
-        /* border: 1px solid red */
+        /* border: 1px solid red; */
+        padding:0px;
+        width:90%
     }
 
     .info {
@@ -430,6 +432,12 @@ button {
     .slide-image {
         width: 100%;
         height: auto;
+    }
+
+     .image{
+        width:150px;
+        height:150px;
+        background-image: url(box-img.jpg);
     }
 
     .title {
