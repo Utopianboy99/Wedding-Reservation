@@ -59,23 +59,23 @@ const Invitation = () => {
       </div>
       <div className="swiper-block">
         <div className="black-line"></div>
-      <Swiper
-        modules={[Autoplay, Navigation]} // Ensure all necessary modules are included
-        spaceBetween={10}
-        slidesPerView={1}
-        loop={true}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
-        navigation={false} // Changed to true so navigation buttons appear
+        <Swiper
+          modules={[Autoplay, Navigation]} // Ensure all necessary modules are included
+          spaceBetween={10}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          navigation={false} // Changed to true so navigation buttons appear
         >
-        {images.map((image, index) => (
-          <SwiperSlide key={index}>
-            <div className="vertLine"></div>
-            <img src={image} alt={`Slide ${index + 1}`} className="slide-image" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-        </div>
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="vertLine"></div>
+              <img src={image} alt={`Slide ${index + 1}`} className="slide-image" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 
       <div className="title">
         <h1>
@@ -86,7 +86,9 @@ const Invitation = () => {
       </div>
 
       <div className="info">
-        <div className="image"><img src="box-img.jpg" alt="" width='150'/></div>
+        <div className="image">
+          {/* <img src="box-img.jpg" alt="" width='120' /> */}
+        </div>
         <h1>KISMAR & CYNTHIA</h1>
         <h1>TSHIKOMBELA</h1>
         <p>Join us as we renew our vows and toast to TEN beautiful years of marriage.</p>
