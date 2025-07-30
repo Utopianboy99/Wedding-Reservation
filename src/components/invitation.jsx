@@ -7,16 +7,16 @@ import "swiper/css/navigation";
 import "./invitation.css"; // Ensure this file exists
 
 const images = [
-  "/pic1.png",
-  "/pic2.png",
-  "/pic3.png",
-  "/pic4.png",
-  "/pic5.png",
-  "/pic6.png",
-  "/pic7.png",
-  "/pic8.png",
-  "/pic9.png",
-  "/pic10.png"
+  "/1.jpg",
+  "/2.jpg",
+  "/3.jpg",
+  "/4.jpg",
+  "/5.jpg",
+  "/6.jpg",
+  "/7.jpg",
+  "/8.jpg",
+  "/9.jpg",
+  "/10.jpg",
 ];
 
 const Invitation = () => {
@@ -24,7 +24,7 @@ const Invitation = () => {
 
   useEffect(() => {
     const countdown = setInterval(() => {
-      const targetDate = new Date("April 26, 2025 00:00:00").getTime();
+      const targetDate = new Date("August 23, 2025 00:00:00").getTime();
       const now = new Date().getTime();
       const difference = targetDate - now;
 
@@ -46,6 +46,19 @@ const Invitation = () => {
 
   return (
     <div className="view-width">
+      <div className="group1">
+        <div className="img one"></div>
+        <div className="img two"></div>
+      </div>
+      <div className="rightTopText">
+        <h2>
+          Your presence has been a gift to our
+          journey,and we'd be honered to celebrate
+          this milestone with you!
+        </h2>
+      </div>
+      <div className="swiper-block">
+        <div className="black-line"></div>
       <Swiper
         modules={[Autoplay, Navigation]} // Ensure all necessary modules are included
         spaceBetween={10}
@@ -54,43 +67,47 @@ const Invitation = () => {
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         navigation={false} // Changed to true so navigation buttons appear
-      >
+        >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
+            <div className="vertLine"></div>
             <img src={image} alt={`Slide ${index + 1}`} className="slide-image" />
           </SwiperSlide>
         ))}
       </Swiper>
+        </div>
 
       <div className="title">
-  
+        <h1>
+          10th
+          <br />
+          <span className="span">ANNIVERSERY</span>
+        </h1>
       </div>
 
-       <div className="info"></div>
+      <div className="info">
+        <div className="image"><img src="box-img.jpg" alt="" width='150'/></div>
+        <h1>KISMAR & CYNTHIA</h1>
+        <h1>TSHIKOMBELA</h1>
+        <p>Join us as we renew our vows and toast to TEN beautiful years of marriage.</p>
+      </div>
 
       <div className="time-reg">
-        <img src="/info-pic.jpg" alt="info-pic" id="info-pic" />
       </div>
 
       <div className="text-info">
-         <div className="text1">
-          <h5 className="head-text">THANKS GIVING SERVICE </h5>
-          <p className="more-info">12:30 - 14:00</p>
-          <p className="more-info">THEME : ALL WHITE</p>
+        <div className="text">
+          <h5 className="head-text">DATE: AUGUST 23, 2025 </h5>
+          <p className="more-info">12:00 - 14:00 (Blessing Service)</p>
+          <p className="more-info">VENUE: ALISIA STREET</p>
         </div>
-        
-        <div className="text2">
-          <h5 className="head-text">DINNER</h5>
-          <p className="more-info">17:00 - 21:00</p>
-          <p className="more-info">THEME : BLACK & GOLD</p>
-        </div> 
+
+        <div className="text">
+          <p className="more-info">18:00 - 21:00 (Evening Party)</p>
+          <p className="more-info">VENUE: ARIZONA STREET</p>
+        </div>
       </div>
-        <br />
-      <div className="address">
-        <p>ADDRESS: 8 ALBERT STR TOWNSVIEW </p>
-        <br id="br" />
-        <p>(ROSETTENVILLE BAPTIST CHURCH)</p>
-      </div> 
+      <br />
 
       <div className="count-down-block">
         <br />
@@ -101,11 +118,10 @@ const Invitation = () => {
           <span>{timeLeft.seconds}S</span>
         </div>
         <br />
-        <h3 className="countdown-title">TO OUR ANNIVERSARY!</h3>
 
       </div>
       <br />
-      <button><a href="https://wa.me/+27729628115?text=Hi😃%2C%20I%20would%20like%20to%20reserve%20a%20seat%20at%20your%20wedding%20anniversary%2C%20my%20name%20is%20" className="btn"  >CLICK TO RESERVE <br /> A SEAT</a></button>
+      <button><a href="https://wa.me/+27729628115?text=Hi😃%2C%20I%20would%20like%20to%20reserve%20a%20seat%20at%20your%20wedding%20anniversary%2C%20my%20name%20is%20" className="btn"  >RESERVE A SEAT</a></button>
       <br />
       <p className="frech" >"CLIQUEz CI-DESSUS POUR RESERVER VOTRE PLACE"</p>
     </div>

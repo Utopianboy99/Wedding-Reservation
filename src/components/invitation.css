@@ -1,16 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
 .view-width {
-
-    width: 390px;
-    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height:220vh;
     /* border: 2px solid red; */
 }
 
-.swiper {
-    width: 389px;
-    height: 350px;
+.group1{
+    /* border:2px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:8%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
+
+.img{
+    width:50%;
+    height:100%;
+    /* border:1px solid lime  */
+}
+
+.one{
+    background: url(3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40% 0px 0px 0px;
+}
+
+.two{
+    border-radius: 0px 40% 0px 0px;
+    background: url(6.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rightTopText{
+    color:pink;
+    /* border:1px solid red; */
+    width:70%;
+    margin:5%;
+    font-size:14px;
+
+}
+
+.rightTopText h2{
+    text-align: center;
+}
+
+.swiper-block{
+    /* border:1px solid red; */
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.black-line{
+    width:10%;
+    height:80%;
+    border-radius: 20px 20px 0px 0px;
+    background: black;
+}
+
+.swiper {
+    width: 70%;
+    height: 81%;
+    /* border:2px solid red; */
+    border-radius: 0px 35% 0px 0px;
+    display: flex;
+}
+
 
 .swiper-slide {
     display: flex;
@@ -33,83 +100,91 @@
     left: 0;
     width: 100%;
     height: 50%;
-    /* Adjust the height of the gradient */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
     pointer-events: none;
-    /* Ensures the gradient doesn't interfere with interactions */
 }
 
 
 .title{
-    height:400px;
+    height:30%;
     /* border:2px solid red; */
-    background-image: url("/Group 97.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* position: absolute; */
-    width:390px;
-    /* top:200px; */
-    /* z-index: 1; */
-}
-
-.coupleName{
-    width:10%;
-    height:10%;
-    border:2px solid red;
-}
-
-#couple{
-
-    border:2px solid red;
-    /* width:350px;
-    height: 180px;
     position: absolute;
-    top:32%;
-    left:0%;
-    z-index: 1; */
+    width:70%;
+    top:74%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.who{
-    color:white;
-    text-align: center;
-    margin-top:95px;
-    position: absolute;
-    top:36%;
-    z-index: 1;
-    font-size: 30px;
-}
-
-#and{
-    font-size: 90px;
-    /* position: relative; */
-}
-
-#wed-inn-svg{
-    /* margin-top:40%; */
-    /* position: absolute; */
+.title h1{
     width:100%;
-    height:100px;
-    /* top:64%; */
-    /* left:0%; */
-    /* margin-bottom: -20px;; */
+    font-size: 290%;
+    /* border:2px solid red; */
+    color:#D4A5A5;
+    z-index: 1;
 }
 
-#info-pic{
-    /* margin-top:300px; */
-    /* border:2px solid lime; */
-    width:389px;
+.span{
+    /* border:2px solid red; */
+    margin-left: 50px;
 }
+
+.info{
+    margin-top:20%;
+    width:100%;
+    /* border:1px solid red; */
+    height:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    /* background: url(box-img.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:5px solid peachpuff;
+    border-radius:20%;
+    object-fit: fill;
+    width:35.6%;
+    height:46%;
+}
+
+.info h1{
+    text-align: center;
+    /* border:2px solid red; */
+    width:90%;
+    margin:5px;
+    color:#D4A5A5
+}
+
+.info p{
+    width:80%;
+    text-align: center;
+}
+
+.image img{
+    border-radius: 19.5%;
+}
+
 
 
 .text-info{
-    color:white;
+    margin-top:10%;
+    /* color:white; */
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+    height: 8%;
 }
 
-.text2{
-text-align: right;
+.text{
+text-align: center;
 }
 
 .more-info{
@@ -122,7 +197,7 @@ text-align: right;
 
 
 .address{
-    color: white;
+    /* color: white; */
     text-align: center;
     font-size: 14px;
     margin-top:15px;
@@ -133,7 +208,7 @@ text-align: right;
 }
 
 .count-down-block{
-    color:white;
+    /* color:white; */
     text-align: center;
     /* position: absolute; */
     /* top:870px; */
@@ -141,27 +216,22 @@ text-align: right;
 }
 
 .countdown{
-    color:gold;
+    color:pink;
     font-size: 28px;
     letter-spacing: 5px;;
 }
 
-h3{
-    font-family: "Jacques Francois", serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 button{
-    background:linear-gradient(to right, gold, rgb(255, 157, 0));
+    background:#FFD3B6;
     /* display: flex; */
     align-items: center;
     justify-content: center;
     margin:0px 100px;
     border-radius:20px;
-    border:1px solid gold;
+    border:none;
     width:45%;
-    height:5%;
+    height:4%;
     /* left:33%; */
     /* position: absolute; */
     /* top:1000px; */
@@ -179,7 +249,7 @@ button{
 }
 
 .frech{
-    color:white;
+    /* color:white; */
     text-align: center;
     font-size: 11px;
     margin-top:20px;
@@ -328,10 +398,8 @@ button{
 
     .title{
         height:370px;
-        /* border:2px solid red; */
-        background-image: url("/Group 97.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        border:2px solid red;
+        /* top:20; */
         /* position: absolute; */
         width:347px;
         margin:0px;
