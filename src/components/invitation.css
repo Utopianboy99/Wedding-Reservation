@@ -304,9 +304,9 @@ button {
     }
 
     .image{
+        background-image: url(box-img.jpg);
         width:150px;
         height:150px;
-        background-image: url(box-img.jpg);
     }
 
     .info h1 {
@@ -390,9 +390,9 @@ button {
     }
 
      .image{
+        background-image: url(box-img.jpg);
         width:150px;
         height:150px;
-        background-image: url(box-img.jpg);
     }
 
     .title {
