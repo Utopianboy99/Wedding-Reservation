@@ -116,10 +116,6 @@
     color: #D4A5A5;
 }
 
-.span {
-    margin-left: 50px;
-}
-
 .info {
     margin-top: 20%;
     width: 100%;
@@ -303,7 +299,7 @@ button {
     }
 
     .image{
-        background-image: url(box-img.jpg);
+        background-image: url(/public/box-img.jpg);
         width:150px;
         height:150px;
     }
@@ -389,7 +385,7 @@ button {
     }
 
      .image{
-        background-image: url(box-img.jpg);
+        background-image: url(/public/box-img.jpg);
         width:150px;
         height:150px;
     }
