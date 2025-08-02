@@ -104,11 +104,6 @@ const Invitation = () => {
             129 De Villiers street, Corner Van Hulstyen St, Kenilworth, Johannesburg South, 2000
           </p>
         </div>
-
-        <div className="text">
-          <p className="more-info">18:00 - 21:00 (Evening Party)</p>
-          <p className="more-info">VENUE: ARIZONA STREET</p>
-        </div>
       </div>
       <br />
 
