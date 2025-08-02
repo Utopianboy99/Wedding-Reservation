@@ -101,7 +101,9 @@ const Invitation = () => {
         <div className="text">
           <h5 className="head-text">DATE: AUGUST 23, 2025 </h5>
           <p className="more-info">
-            129 De Villiers street, Corner Van Hulstyen St, Kenilworth, Johannesburg South, 2000
+            129 De Villiers street, Corner Van Hulstyen St
+            <br/>
+            Kenilworth, Johannesburg South, 2000
           </p>
         </div>
       </div>
