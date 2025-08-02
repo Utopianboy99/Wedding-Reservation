@@ -89,7 +89,7 @@ const Invitation = () => {
         <div className="image">
           {/* <img src="box-img.jpg" alt="" width='120' /> */}
         </div>
-        <h1>KISMAR & CYNTHIA</h1>
+        <h1>CASIMIR & CYNTHIA</h1>
         <h1>TSHIKOMBELA</h1>
         <p>Join us as we renew our vows and toast to TEN beautiful years of marriage.</p>
       </div>
